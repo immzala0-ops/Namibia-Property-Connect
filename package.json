@@ -1,0 +1,17 @@
+{
+  "name": "namibia-property-connect",
+  "version": "1.0.0",
+  "description": "A modern property listing and management platform for Namibia",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "backend": "cd backend && npm install && npm run dev",
+    "frontend": "cd frontend && npm install && npm start",
+    "test": "jest",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": ["property", "listings", "namibia", "real-estate"],
+  "author": "immzala0-ops",
+  "license": "MIT"
+}
